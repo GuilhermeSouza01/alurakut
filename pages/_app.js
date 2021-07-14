@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #D9E6F6;
+    background-color: #FEF7DC;
   }
   #__next {
     display: flex;
