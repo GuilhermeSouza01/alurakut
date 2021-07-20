@@ -35,7 +35,7 @@ export function AlurakutMenu({ githubUser }) {
         </nav>
 
         <nav>
-          <a href={`/login`}>
+          <a href={`/logout`}>
             Sair
           </a>
           <div>

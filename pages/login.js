@@ -45,7 +45,8 @@ export default function LoginScreen() {
                   "Content-Type": "application/json",
                 },
                 body: JSON.stringify({ githubUser: githubUser }),
-              }).then(async (respostaDoServer) => {
+              })
+              .then(async (respostaDoServer) => {
                 const dadosDaResposta = await respostaDoServer.json();
                 const token = dadosDaResposta.token;
                 nookies.set(null, "USER_TOKEN", token, {
